@@ -4,9 +4,7 @@ author: "Kaumod Mishra"
 date: "Jun 27, 2019"
 output:
   html_document: default
- 
----
-
+ ---
 To parse dates we're going to use lubridate, dplyr to parse data, and to plot some graphs ggplot2
 
 ```{r, echo=TRUE}
