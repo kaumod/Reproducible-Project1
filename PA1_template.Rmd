@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Research - Course Project 1"
+title: "Reproducible Research - Week 2 Coursera Project 1"
 author: "Kaumod Mishra"
 date: "Jun 27, 2019"
 output:
