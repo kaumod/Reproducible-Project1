@@ -70,6 +70,7 @@ not_empty$steps[nas] = average_na_intervals
 
 
 Histogram of the total number of steps taken each day after missing values are imputed
+
 ```{r, echo=TRUE}
 not_empty_items <- tapply(not_empty$steps, not_empty$date, FUN=sum)
 par(mfrow=c(2,1))
