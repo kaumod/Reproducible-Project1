@@ -23,7 +23,7 @@ activities_per_interval <- group_by(activities, interval)
 ```
 
 
-Histogram of the total number of steps taken each day:
+Histogram of the total number of steps taken each day 
 
 ```{r, echo=TRUE}
 items <- tapply(activities$steps, activities$date, FUN=sum)
