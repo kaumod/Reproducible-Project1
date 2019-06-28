@@ -39,7 +39,7 @@ lines(mean_and_median$median, type="l", col="blue")
 legend("topright", legend=c("mean", "median"), pch=1, col=c("red", "blue"))
 ```
 
-The 5-minute interval that , on average, contains the maximum number of steps
+The 5-minute interval that , on average, contains the maximum number of steps 
 ```{r, echo=TRUE}
 average_of_steps_by_interval <- summarise(activities_per_interval, average=mean(steps, na.rm = TRUE))
 ranking_of_intervals <- arrange(average_of_steps_by_interval, desc(average))
